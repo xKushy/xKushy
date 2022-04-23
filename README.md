@@ -1,4 +1,5 @@
 ## Oiii Sou o Kush, Sou progamador...
+## Minha loja:https://discord.gg/BaEkN5RXKu
 </div>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=xKushy&color=yellow" alt="Profile views" /> </p>
 
