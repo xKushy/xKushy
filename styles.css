@@ -1,0 +1,135 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f1ebfa; /* Cor de fundo preto */
+    color: #7c70d6; /* Cor do texto branca */
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #ffffff; /* Cinza escuro para o cabeçalho */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    color: #92ace5;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #92ace5;
+}
+
+/* Estilos dos botões de login/logout */
+button {
+    background-color: #92ace5;
+    color: rgb(255, 243, 243);
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #92ace5;
+}
+
+#loginButton {
+    display: inline-block;
+}
+
+#logoutButton {
+    display: none;
+}
+
+#logoutButton.show {
+    display: inline-block;
+}
+
+/* Estilos do main */
+main {
+    padding: 2rem;
+}
+
+#authContainer,
+#postFormContainer {
+    max-width: 400px;
+    margin: 2rem auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#authContainer h2,
+#postFormContainer h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #92ace5;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #454f7a;
+    color: white;
+}
+
+form button {
+    background-color: #92ace5;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #7c70d6;
+}
+
+/* Estilos do rodapé */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: #7c70d6;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eternity</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/logo2.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="assets/logo2.png" alt="" style="width: 50px; height: auto;">
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Perfil</a></li>
+                <li><a href="#">Configurações</a></li>
+            </ul>
+        </nav>
+        <button id="loginButton">Login</button>
+        <button id="logoutButton" style="display:none;">Logout</button>
+    </header>
+    <main>
+        <div id="postContainer"></div>
+        <div id="authContainer" style="display:none;">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <h2>Register</h2>
+            <form id="registerForm">
+                <input type="email" id="registerEmail" placeholder="Email" required>
+                <input type="password" id="registerPassword" placeholder="Password" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+        <div id="postFormContainer" style="display:none;">
+            <h2>Upload and attach files</h2>
+            <form class="dropzone-box" id="postForm">
+                <p>Click to upload or drag and drop</p>
+                <div class="dropzone-area">
+                    <div class="file-upload-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cloud-upload" width="24"
+                            height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M7 18a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-1" />
+                            <path d="M9 15l3 -3l3 3" />
+                            <path d="M12 12l0 9" />
+                        </svg>
+                    </div>
+                    <input type="file" required id="upload-file" name="uploaded-file" accept="image/*">
+                    <p class="file-info">No Files Selected</p>
+                </div>
+                <div class="dropzone-actions">
+                    <button type="reset">Cancel</button>
+                    <button id="submit-button" type="submit" href="comments.html">Save</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Eternity &copy; 2024</p>
+    </footer>
+    <script type="module" src="scripts.js"></script>
+</body>
+</html>
