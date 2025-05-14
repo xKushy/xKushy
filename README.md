@@ -1,5 +1,5 @@
-## Oiii Sou o Kush, Sou progamador...
-## Minha loja:https://discord.gg/BaEkN5RXKu
+## Oiii Sou o Rui, Sou progamador/Designer...
+## Meu portifolio:https://ruisiqueiradesigner.netlify.app/
 </div>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=xKushy&color=yellow" alt="Profile views" /> </p>
 
